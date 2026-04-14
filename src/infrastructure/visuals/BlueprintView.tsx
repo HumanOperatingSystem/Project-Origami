@@ -5,7 +5,7 @@ import {
   Color, Matrix4, BoxGeometry, 
   MeshStandardMaterial, InstancedMesh 
 } from 'three';
-import { EditorTool } from '../../../App';
+import { EditorTool } from '../../App';
 
 // COLORS
 const COL_BODY = new Color('#3b82f6'); // Blue

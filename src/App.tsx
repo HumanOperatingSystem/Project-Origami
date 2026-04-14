@@ -1,15 +1,15 @@
 import React, { useState, useMemo } from 'react';
-import { useEvolutionLoop } from './src/application/useEvolutionLoop';
-import { BlueprintService } from './src/domain/BlueprintService';
-import { ShapeType, Organism, CellType } from './src/domain/types';
+import { useEvolutionLoop } from './application/useEvolutionLoop';
+import { BlueprintService } from './domain/BlueprintService';
+import { ShapeType, Organism, CellType } from './domain/types';
 
 // UI Components
-import { UnifiedStage } from './src/infrastructure/visuals/UnifiedStage';
-import { CommandBar } from './src/ui/CommandBar';
-import { ToolDock } from './src/ui/ToolDock';
-import { SettingsDrawer } from './src/ui/SettingsDrawer';
-import { StatsOverlay } from './src/ui/StatsOverlay';
-import { EnergyBar } from './src/ui/EnergyBar';
+import { UnifiedStage } from './infrastructure/visuals/UnifiedStage';
+import { CommandBar } from './ui/CommandBar';
+import { ToolDock } from './ui/ToolDock';
+import { SettingsDrawer } from './ui/SettingsDrawer';
+import { StatsOverlay } from './ui/StatsOverlay';
+import { EnergyBar } from './ui/EnergyBar';
 
 export type EditorTool = 'VIEW' | 'BUILD' | 'ERASE';
 

@@ -4,7 +4,7 @@ import { Grid, PerspectiveCamera, OrbitControls } from '@react-three/drei';
 import { SimulationLayer } from './SimulationLayer';
 import { BlueprintView } from './BlueprintView';
 import { Organism, ShapeType, CellType, BlueprintCell } from '../../domain/types';
-import { EditorTool } from '../../../App';
+import { EditorTool } from '../../App';
 import * as THREE from 'three';
 
 interface UnifiedStageProps {

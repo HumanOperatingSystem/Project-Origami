@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from './Icons';
 import { ShapeType, CellType } from '../domain/types';
-import { EditorTool } from '../../App';
+import { EditorTool } from '../App';
 
 interface ToolDockProps {
   status: 'EDITING' | 'SIMULATING';
