@@ -1,0 +1,5 @@
+{
+  "name": "Project Origami 0.1",
+  "description": "An evolutionary simulation where soft-body geometric organisms learn to walk using genetic algorithms and Verlet integration.",
+  "requestFramePermissions": []
+}
